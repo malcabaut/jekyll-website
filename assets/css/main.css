@@ -13,6 +13,10 @@ header {
   color: white;
   padding: 1rem;
   margin-bottom: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 /* Estilos de navegación */
@@ -21,6 +25,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 nav ul li {
@@ -31,10 +36,12 @@ nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  color: #FFD700; /* Cambia el color al pasar el cursor */
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño */
 }
 
 main {

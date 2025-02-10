@@ -1,0 +1,28 @@
+title: Nombre de tu Organización
+description: Descripción breve de tu organización
+baseurl: ""
+url: "https://tudominio.com"
+
+# Colecciones
+collections:
+  team:
+    output: true
+  news:
+    output: true
+
+# Configuración de compilación
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Excluir archivos y carpetas
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+

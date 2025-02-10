@@ -1,7 +1,5 @@
 title: Nombre de tu Organización
 description: Descripción breve de tu organización
-baseurl: ""
-url: "https://tudominio.com"
 
 # Colecciones
 collections:
@@ -25,8 +23,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-# Incluir archivos y directorios que Jekyll normalmente ignoraría
-include:
-  - assets
 

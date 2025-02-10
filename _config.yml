@@ -26,3 +26,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+# Incluir archivos y directorios que Jekyll normalmente ignoraría
+include:
+  - assets
+
